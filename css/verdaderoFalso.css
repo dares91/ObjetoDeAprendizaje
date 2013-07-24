@@ -1,0 +1,46 @@
+#retroContainer{
+    display:none;
+    margin-top: 30px;
+}
+
+#title{
+    color: #888c85;
+    font-size: 30px;
+
+}
+
+.mylead{
+    font-size: 15px !important;
+     margin-top: 2px  !important;
+    padding: 2px auto !important;
+    margin-bottom:  2px  !important;
+}
+
+.myhr{
+    margin: 10px auto !important;
+  
+}
+
+.mainContainer{
+    display: none;
+    
+}
+
+.mytable{
+    width: 100%;
+    background: #f7fffd;
+    color: #828887;
+}
+
+.mytable tr td {
+    text-align: center;
+    margin: 10px auto !important ;
+}
+
+.trTop{
+    border-top: solid #7f8382 1px;
+}
+
+.trbottom{
+    border-bottom:  solid #7f8382 1px;
+}

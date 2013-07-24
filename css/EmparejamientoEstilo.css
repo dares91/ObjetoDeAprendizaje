@@ -1,0 +1,33 @@
+
+.pareja1 {
+    background-color:  #990066 !important;
+    color: white;
+}
+
+.pareja2 {
+    background-color:  #ff9966 !important;
+    color: white;
+}
+
+.pareja3 {
+    background-color:   #ff99ff !important;
+    color: black !important;
+}
+
+.pareja4 {
+    background-color:  skyblue !important;
+    color: black !important;
+}
+
+.pareja5 {
+    background-color:  #65c77b !important;
+    color: white;
+}
+
+#bti1, #bti2, #bti3, #bti4, #bti5, #btd1, #btd2, #btd3, #btd4, #btd5{
+    height: 85px;
+    width: 250px;
+    border-style: solid;
+    color: white;
+    background: grey;
+}

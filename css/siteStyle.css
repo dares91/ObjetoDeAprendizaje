@@ -1,0 +1,175 @@
+@media (min-width: 770px) {
+     .staticSideMenu {
+        position:fixed;
+        left: 3px;
+        width: 20%; 
+     }
+     
+ }
+
+ 
+.itemStacticMenu  {   
+ 
+    padding-left: 20px;
+    display: block;
+    font-size: 1.2em;
+    padding:  10px;
+    padding-left: 10px;
+     height: 20px;
+     border: solid #b8c8cf 1px;
+     border-bottom:  none;
+     margin-left:  30px;
+     color: #3c9b9e;
+     background: url("../img/selectorChecked3.png") no-repeat center right;
+     min-width: 150px;
+}
+
+.arriba{
+    text-align: center;
+    color: black;
+    background: #e0fbce;
+    border: #d8d6d5 solid  1px!important;
+    border-radius: 20px;
+    margin-left:  30px;
+    padding: 4px 10px;
+    width: 90%;
+    
+}
+.arriba:hover{
+    background: #579230  url("") !important;
+    color: white !important;
+}
+
+.itemStacticMenu:hover{
+    background: #f7f7f7 url("../img/selectorChecked4.png") no-repeat center right ;
+    text-decoration: none;
+    cursor: pointer; 
+    color: #092b2d;
+    
+}
+
+.itemStacticMenu:focus, .arriba:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.ismlarge{
+    height: 40px;
+}
+
+.nav li:hover{
+    background-color: #bedada;
+    color: white;
+}
+
+.itemStaticMenu-first{
+    border-top-left-radius:  20px !important; 
+    border-top-right-radius:  20px !important;
+}
+
+p{
+    text-align: justify;
+}
+
+.itemStaticMenu-last{
+    border-bottom-left-radius:   20px;
+    border-bottom:  solid #b8c8cf 1px;
+    border-bottom-right-radius:   20px;
+}
+
+.subtitle{
+    color: #8c8e92;
+    margin-bottom: 30px;
+}
+
+.mylead{
+    font-size: 17px !important;
+}
+
+.activeLink{
+    background: #0a6568 url("../img/selectorChecked2.png") no-repeat center right !important;
+    color: white !important;
+    border-right: none;
+}
+
+.my-hero-unit{
+    padding: 30px 30px !important; 
+}
+
+.TDimgCausaPropagacion{
+    width: 30%;
+}
+
+.TDdescCausaPropagacion{
+    
+}
+
+.my-TN-R1{
+    min-height: 340px !important;
+}
+
+.my-TN-R2{
+    min-height: 390px !important;
+}
+
+
+td{
+    padding-left:   5% !important;
+}
+
+
+
+        .enlacesAjuegos{
+            border: solid white 2px;
+        }
+
+
+        .contenedor{
+        	border-style: solid;
+        	border-width:1px;
+        	border-color:lightgray;
+        	border-radius:10px;
+                width: 70%;
+                margin-left: 5px;
+        }
+
+         .tituloContenedor1,.tituloContenedor2,.tituloContenedor3
+         ,.tituloContenedor4,.tituloContenedor5,.tituloContenedor6
+         ,.tituloContenedor7,.tituloContenedor8 {
+         	border-bottom: solid lightgray 1px;
+         	border-top-right-radius: 10px;
+         	border-top-left-radius: 10px;
+         	width: 100%;
+         	background-color: lightblue;
+         	padding-top: 0px !important;
+         	margin-top: 0px !important;
+         }
+         .tituloContenedor1{
+             background-color: #ccccff;
+         }
+         .tituloContenedor2{
+             background-color: #9999ff;
+         }
+        .tituloContenedor3{
+            background-color: #00cccc;
+         }
+
+        .tituloContenedor4{
+            background-color: #33ffcc;
+         }
+         
+        .tituloContenedor5{
+            background-color: #ccffcc;
+         }
+
+        .tituloContenedor6{
+            background-color: #ffffcc;
+         }
+         
+        .tituloContenedor7{
+            background-color: #ffcc33;
+         }
+         
+        .tituloContenedor8{
+            background-color: #ff6666;
+         }

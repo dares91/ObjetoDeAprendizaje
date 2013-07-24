@@ -1,0 +1,99 @@
+.myTD{
+     width: 20px;
+     height: 20px;     
+}
+
+.myTD:hover{
+    background-color: cadetblue !important ;
+}
+
+.tdMarcado:hover{
+    background-color: #ffff00 !important;
+}
+
+.tdEncontrado{
+    background-color: #00ff33 !important;
+}
+
+.tdEncontrado:hover{
+    background-color: cadetblue !important;
+}
+
+.tdMarcado{
+    background-color: #ffff00 !important; 
+}
+
+.msg{
+  display: none ;
+  height: 10%;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 40%;
+  border: outset;
+}
+
+.mesajeCongratulation{
+    display: none;
+    border:groove;
+}
+#sopaLetras{
+     text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+
+}
+
+.jugando{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    display:table-cell;
+}
+
+.btn.active{
+    background-color: #06b927;
+}
+.bottomLined{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #d3dada;
+}
+
+.palabra
+{
+ margin-top: 6px;
+ margin-bottom: 0px !important;
+ width: 100%;
+ font-weight: bold;
+ background-color: #55becc;
+ padding: 5px;
+ border-radius: 5px;
+ text-align: center;
+ cursor: pointer;
+}
+
+.palabra:hover{
+    background-color: #3595af;
+}
+
+.palabraEncontrada{
+    background: #0de127 url("../img/check.png") center left no-repeat;
+
+    
+}
+.divDesc
+{
+margin-top: 1px !important;
+padding:10px 5px;
+width: 100%;
+display:none;
+background-color:  #eaf7f9;
+
+border-radius: 4%;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>OA-Malware-Seleccion multiple</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <script src="js/jquery-2.0.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/SeleccionMultiple.js"></script>
+        
+        <script src="js/Menu.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  
+        
+  </head>
+  <body onload = "agregarMenu()">
+    <div id="mainMenu" class="dropdown">
+    </div>
+     
+     <div class="container-fluid">
+         <div class="row-fluid">
+             <div class="span4">
+                 <h2>Juego de seleccion multiple</h2>
+                 <div id="Respuestas">
+                 </div>
+             </div>
+             <div class="span8">
+                 <table class="table-striped">
+                     <tr>
+                         <td><h6>Responda con una o mas respuestas para cada interrogante </h6></td>
+                         <td></td>
+                         <td></td>
+                         <td></td>
+                     </tr>                     
+                     <tr style="height: 30px; background-color: lightcyan;">
+                         <td> De los siguientes cuáles son tipos de Malware?</td>
+                         <td/>
+                         <td/>
+                         <td/>
+                     </tr>                                    
+                     <tr>
+                         <td><label for="human">HUMAN</label><input type="checkbox"  id="human"/></td>
+                         <td style="padding-left: 50px !important"><label for="ing">Ingeniería Social</label><input type="checkbox"  id="ing"/></td>
+                         <td id="g1" style="padding-left: 50px !important"><label for="fish">Phishing</label><input type="checkbox"  id="fish"/></td>
+                         <td id="g2" style="padding-left: 50px !important"><label for="SpyWare">Spyware</label><input type="checkbox"  id="SpyWare"/></td>
+                     </tr>
+                         
+                     
+                     <tr style="height: 30px; background-color: lightcyan;">
+                         <td>Cúales son las formas de transmisión del Malware?</td>
+                         <td/>
+                         <td/>
+                         <td/>
+                     </tr>                     
+                     <tr>
+                         <td  id="g3"><label for="email">Correo Electrónico</label><input type="checkbox"  id="email"/></td>
+                         <td id="g4" style="padding-left: 50px !important"><label for="devices">Dispositivos de almacenamiento</label><input type="checkbox"  id="devices"/></td>
+                         <td id="g5" style="padding-left: 50px !important"><label for="Multimedia">Archivos multimedia</label><input type="checkbox"  id="Multimedia"/></td>
+                         <td  style="padding-left: 50px !important"><label for="directContact">Contacto directo entre dispositivos</label><input type="checkbox"  id="directContact"/></td>
+                     </tr>
+                     
+                     
+
+                     <tr style="height: 30px; background-color: lightcyan;">
+                         <td>De las siguientes, cuáles son formas de prevenir el Malware</td>
+                         <td/>
+                         <td/>
+                         <td/>
+                     </tr>
+                     <tr>
+                         <td id="g6" ><label for="antivirus">Programas antivirus</label><input type="checkbox"  id="antivirus"/></td>
+                         <td id="g7" style="padding-left: 50px !important"><label for="firewall">Uso de Firewall</label><input type="checkbox"  id="firewall"/></td>
+                         <td  style="padding-left: 50px !important"><label for="descargaMalware">Descargar todo tipo de programas gratuitos</label><input type="checkbox"  id="descargaMalware"/></td>
+                         <td  style="padding-left: 50px !important"><label for="click">Acostumbre a hacer click en todos los anuncios</label><input type="checkbox"  id="click"/></td>
+                     </tr>
+                     
+                     <tr style="height: 30px; background-color: lightcyan;">
+                         <td>De las siguientes, cuáles son programas antivirus mencionados en el sitio</td>
+                         <td/>
+                         <td/>
+                         <td/>
+                     </tr>
+                     <tr>
+                         <td id="g8" ><label for="se">Microsoft Security essential</label><input type="checkbox"  id="se"/></td>
+                         <td id="g9" style="padding-left: 50px !important"><label for="ESET">Este antivirus</label><input type="checkbox"  id="ESET"/></td>
+                         <td style="padding-left: 50px !important"><label for="MalwareBorrador">Malware borrador</label><input type="checkbox"  id="MalwareBorrador"/></td>
+                         <td style="padding-left: 50px !important"><label for="BarreM">Barre Malware</label><input type="checkbox"  id="BarreM"/></td>
+                     </tr>
+                 </table>
+                 <br/>
+                 <br/>
+                 <button onclick="comprovar();">Compruebe sus respuestas</button>
+             </div>
+         </div>
+     </div>
+
+
+  </body>
+</html>

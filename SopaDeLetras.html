@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html id="sop">
+  <head>
+    <title>OA-Malware-Sopa de Letras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <script src="js/jquery-2.0.3.js"></script>
+     <script src="js/bootstrap.js"></script>
+     <script src="js/Menu.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">    
+     <link href="css/sopaLetras.css" rel="stylesheet" >     
+    <script src="js/sopaLetras.js"></script>
+
+  </head>
+  <body id="bodySopa" onload = "agregarMenu(3);inicializarSopa();" >
+    <div id="mainMenu" class="dropdown">
+    </div>
+   
+    <script src="js/bootstrap.min.js"></script>
+    <div >
+        <h3 style="margin-left: 3%;">¡¡A jugar Sopa de Letras !! </h3>
+    </div>    
+    <hr/>
+ 
+     <div   class="span3" >
+        <h4>Palabras a buscar</h4>
+        <hr/>
+        <div id="palabras"></div>   
+     </div>  
+    <div class="span5" style="padding: 0px 8px;" >
+        <div class="row">
+            <h4 style="margin-left: 10%;">Sopa de letras</h4>
+            <hr/> 
+        </div>
+        <div class="row" style="margin-left: auto;margin-right: auto;"  >
+            <div id="sopaLetras" ></div> 
+        </div>       
+    </div>
+    <div class="span4 " >     
+         <div class="row">
+            <h4>Nivel de juego</h4>
+             <hr/>
+                  <div class="btn-group" >
+                      <button type="button" id="1" onclick="cambiarNivelJuego(1); " title="Nivel principiante"  class="myradio btn btn-info">Principiante</button>
+                      <button type="button" id="2" onclick="cambiarNivelJuego(2); " title="Nivel Intermedio" class="myradio btn btn-info active">Intermedio</button>
+                      <button type="button" id="3" onclick="cambiarNivelJuego(3); " title="Nivel Avanzado"  class="myradio btn btn-info">Avanzado</button>
+                  </div> <br/>                  
+                  <div class="btn btn-primary" title="Reiniciar el juego"  onclick="reiniciarJuego();" style="margin-top: 10px; float: left">
+                      Nuevo juego 
+                  </div>
+
+        </div>
+        <br/>
+        <div class="row">
+            <div class="bottomLined">
+                <h4>Cómo jugar</h4>
+            </div>            
+            <ul>
+                <li>Click izquierdo para iniciar selección y click derecho para terminar selección y comprobar</li><br/>
+                <li>Puedes seleccionar en orden correcto, o inverso; pero siempre de manera consecutiva, no aleatorio</li>                                           
+
+            </ul>   
+            <div class="bottomLined">
+                <h4>Extras</h4>
+            </div>
+              
+            <ul>                                        
+                   <li>¿Lo sientes muy complicado o muy fácil?. Puedes cambiar el nivel del juego y luego pulsar sobre <b>Nuevo juego</b></li><br/>
+                   <li>Si quieres recordar los conceptos  de cada palabra, haz click sobre ellos.</li>
+            </ul> 
+        </div>      
+    </div>
+    <div id="succesMsg"  class="msg alert alert-success" >      
+    </div>    
+  </body>
+</html>

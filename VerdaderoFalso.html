@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>OA-Malware-Verdadero o Falso</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <script src="js/jquery-2.0.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/Menu.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  
+        <link href="css/verdaderoFalso.css" rel="stylesheet">  
+         <script src="js/verdaderoFalso.js"></script>
+  </head>
+  <body onload = "agregarMenu();">
+    <div id="mainMenu" class="dropdown">
+    </div>
+       <div class="span8" style="padding-left:  5px;">
+            <h2>Juego verdadero o falso</h2>
+           
+       </div>
+        <div class="span3 offset1">
+            <div class="btn btn-inverse btn-large pull-right" onclick="location.reload();" style="text-align: center; width: 200px;">
+                    Probar otra vez !!
+                </div>
+            
+        </div>
+        <div class="span12">
+         <hr/>
+        </div>
+         <div class="span8" style="padding-left:  15px;">
+             <div  class="row">
+                <div class=" mainContainer">                
+                    <h2 id="title">titulo</h2>               
+                    <hr class="myhr"/>            
+                    <div class="row">
+                       <p style="padding-left: 30px;" id="pregunta" class="lead">
+                          ¡¡Ooppss!! No se ha podido cargar las preguntas
+                       </p>                
+                    </div>
+                    <hr/>
+                      <div class="row ">
+                              
+                          <div  class="pull-right">
+                                    <div class="resp btn btn-large btn-success" onclick="contestarPreg(1);" >
+                                          Verdadero
+                                     </div>
+                                    <div class="resp btn btn-large btn-danger" onclick="contestarPreg(0);" >
+                                          Falso
+                                    </div>
+                              <button class="sig btn btn-large btn-primary" disabled  onclick="cargarProximaPregunta();" >
+                                          Siguiente
+                                          <i class="icon-chevron-right"></i>
+                              </button>
+                         </div>                             
+                        
+                      </div>
+                  </div> 
+              </div>
+              <div class="row">                    
+                  <div id="retroContainer">
+                    <div id="retro" class="alert">
+
+                    </div>
+                  </div>
+               </div>
+
+         </div>     
+         <div class="span3 offset1">
+              <div class="row">             
+                      <h3 id="status">Status</h3>
+                      <div class="retro well">
+
+                          <p class="lead mylead">Preguntas contestadas: <strong id="contestadas"></strong></p>
+                          <hr class="myhr"/>
+                          <p class="lead mylead">Preguntas Correctas: <strong id="correctas"></strong></p>
+
+                    </div>
+             </div>
+           <div class="row" >
+               <div class="well" >
+                  <h3>Tips</h3>
+                  <hr class="myhr"/>
+                  <ul>
+                      <li>
+                          Lee muy bien las preguntas, puede que algunas te hagan pensar un poco
+                      </li>
+                       <li>
+                          Contesta con seguridad, solo podrás contestar a cada pregunta una sola vez.
+                      </li>
+                      <li>
+                          Si te equivocas, no te desanimes. Hechando a perder se aprende!!  <b>:) </b>
+                      </li>
+                  </ul>
+              </div>
+           </div>
+         </div>
+    
+  </body>
+</html>

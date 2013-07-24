@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>OA-Malware-Tipos de Malware</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <script src="js/jquery-2.0.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/Menu.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
+        <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href="css/siteStyle.css">
+        <script src="js/globalJS.js"></script>
+
+  </head>
+
+
+ <body onload = "agregarMenu()">  
+    
+    <div id="mainMenu" class="dropdown">
+    </div>
+    
+    <h2 style="padding-left: 10%;">Formas de propagación del Malware y medidas Antimalware</h2>
+    <hr/>    
+    <div class="span3 ">    
+        <div class="row">
+            <div class=" staticSideMenu">         
+                <a id="propagacion" class="itemStacticMenu ismlarge itemStaticMenu-first activeLink" href="#propagacion" >Propagación  </a>     
+                <a id="medidas" class="itemStacticMenu ismlarge itemStaticMenu-last" href="#medidas">Medidas antimalware </a>  
+                <br/>
+                <br/>
+                <button id="top" class="arriba" onclick="scrollToTop();" > ¡ Arriba ! </button> 
+            </div>
+        </div>
+    </div>
+    <div class="span9" >
+        <div class="row">
+            <div class="hero-unit my-hero-unit ">
+                <a name="propagacion"></a><h2 class="subtitle">Formas de Propagación del Malware</h2>
+                <p>El malware puede ser transferido de un usuario a otro y de un dispositivo a otro, 
+                    mediante múltiples medios y mecanismos, entre ellos:</p>
+            </div>
+        </div>
+        <div class="row">
+              <ul class="thumbnails">
+                    <li class="span3 ">
+                      <div class="thumbnail my-TN-R1">
+                          <img data-src="holder.js/300x200" alt="Correo" title="correo" src="img/correo.jpg" width="150" height="150">
+                        <h3>Correo electrónico</h3>
+                        <p>Los correos, principalmente spams, pueden contener documentos adjuntos con codigo malicioso embebido, 
+                            o links que redireccionan a una pagina que podria contener malware</p>
+                      </div>
+                    </li>
+                    <li class="span3">
+                      <div class="thumbnail ">
+                        <img data-src="holder.js/300x200" alt="Multimedia" title="multimedia" src="img/multimedia.jpg" width="150" height="150">
+                        <h3>Archivos multimedia</h3>
+                        <p>Los archivos multimedia como música, imagenes, videos e inclusive documentos pueden contener scripts maliciosos que se
+                            ejecutan al abrirlos o cuando el usuario realiza una determinada acción</p>
+                      </div>
+                    </li>
+                      <li class="span3">
+                      <div class="thumbnail my-TN-R1">
+                        <img data-src="holder.js/300x200" alt="p2p" title="p2p" src="img/p2p.jpg" width="200" height="200">
+                        <h3>Programas p2p</h3>
+                        <p>Con programas p2p , los cuales son utilizado para compartir archivos directamente entre dispositivos,como uTorrent pueden
+                            transferirse archivos con codigo malicioso.</p>
+                      </div>
+                    </li>
+              </ul>
+            <ul class="thumbnails">
+                    <li class="span3 ">
+                      <div class="thumbnail my-TN-R2">
+                        <img data-src="holder.js/300x200" alt="Wifi" title="Wifi" src="img/redwifi.jpg" width="150" height="150">
+                        <h3>Redes inalámbrica</h3>
+                        <p>Es posible ejecutar scripts dentro de una red inalambrica para poder tener control de otros ordenadores e interceptar la 
+                            información de los usuarios conectados a la misma red
+                           </p>
+                      </div>
+                    </li>
+                    
+                     <li class="span3">
+                      <div class="thumbnail my-TN-R2">
+                        <img data-src="holder.js/300x200" alt="storage" title="storage" src="img/storage.jpg" width="130" height="130">
+                        <h3>Dispositivos de alamcenamiento</h3>
+                        <p>Muchos programas maliciosos pueden reproducirse facilmente a traves de los dispositivos de almacenamiento.<br/> Suelen reproducirse cuando
+                            el dispositivo se inicia automaticamente o cuando el usuario realiza alguna acción con el dispositivo infectado </p>
+                      </div>
+                    </li>
+                    
+                    <li class="span3">
+                      <div class="thumbnail my-TN-R2">
+                        <img data-src="holder.js/300x200" alt="Software pirata" title="Software pirata" src="img/piratedSoftware.jpg" width="210" height="210">
+                        <h3>Software piratas</h3>
+                        <p>Los programas crackeados son una forma muy comun de reproducción de malware dado a que el el cracker tiene toda la libertad de insertar
+                            codigo malicioso dentro del programa crackeado</p>
+                      </div>
+                    </li>
+
+              </ul>
+        </div>
+        <div class="row">
+            <hr/>
+            <p class="lead mylead">Para que estos archivos puedan viajar a los dispositivos de los usuarios, los atacantes
+                y creadores de programas maliciosos usan al mismo usuario mediante una técnica conocida como ingeniería 
+                social, es decir, se valen de diversos elementos, para engañar al usuario y provocar una acción por parte 
+                de este, ya sea dar click a un boton, descargar una canción, reenviar un correo electrónico, etc.</p>
+        </div>
+        
+        
+        <!--Medias antimalware-->
+        <div class="row">
+            <div class="hero-unit my-hero-unit ">
+                   <a name="medidas"></a>  <h2 class="subtitle">Medidas Antimalware</h2>
+             </div>
+        </div>
+        <div class="row">            
+                <div class="span2">
+                    <img src="img/microsoft.jpg" alt="Microsoft-logo" title="Windows" height="120" width="120"/>
+                </div>
+                <div class="span7 subtitleMedida">
+                        <h2 class="subtitle">Microsoft </h2>
+                        <h4 class="subtitle">presenta las siguientes recomendaciones</h4> 
+                        
+                         <div class="row" style="border-bottom: #e6e4e4 thin solid">
+                            <table class="table table-striped mytable">
+                                <tbody>
+                                    <tr> <td>  Instalar Programas antivirus </td> </tr>
+                                    <tr> <td> No descargar programas de los cuales no confie su procedencia  </td> </tr>
+                                    <tr>  <td> Mantener actualizado el   sistema operativo, antivirus  y los demas programas </td></tr>
+                                    <tr><td> Utilizar contraseñas seguras y no revelarlas </td> </tr>
+                                    <tr> <td> No utilice la misma contraseña en todos los sitios  </td>    </tr>
+                                    <tr> <td>   Active el firewall </td></tr>
+                                    <tr>   <td> Desactivar la reproduccion automatica de dispositivos en la pc  </td>  </tr>
+                                    <tr>   <td> Tener cuidado al descargar y abrir documentos, estos pueden contener malware embebido.  </td>     </tr>
+                                    <tr> <td>  Evite hacer clic en De acuerdo, Aceptar o Acepto en titulares, en advertencias o ventanas 
+                                            emergentes inesperadas, en sitios web que puedan no parecer legítimos o en ofertas de eliminación 
+                                            de spyware o virus. </td></tr>
+                                    <tr>   <td> Tenga cuidado con ofertas «gratuitas» de música, juegos, vídeos, etc. Son conocidas por incluir malware en la descarga.   </td>  </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                </div>                        
+        </div>
+
+        <br/>
+        <br/>
+        
+        <div class="row">            
+                <div class="span2">
+                    <img src="img/eset.jpg" alt="Eset-logo" title="Eset" height="140" width="140"/>
+                </div>
+                <div class="span7 subtitleMedida">
+                    <h2 class="subtitle">Eset </h2>
+                    <h4 class="subtitle">por su parte, también presenta algunos consejos para combatir contra el malware, entre los cuales estan:</h4>                   
+
+                      <div class="row">
+                        <table class="table table-striped mytable">
+                            <tbody>
+                                
+                               <tr> <td> No confiar en correos con programas adjuntos y mucho menos si los mismos dicen
+                                       ser una actualización de un producto determinado. Las empresas nunca envían adjuntos con actualizaciones, 
+                                       sólo informan de la misma. 
+                               </td> </tr>
+                                <tr> <td>Evitar los programas ilegales (como los warez), ya que los mismos suelen contener troyanos, 
+                                        keyloggers, etc. Si desea utilizar programas libres o gratuitos puede recurrir a las soluciones 
+                                        OpenSource. 
+                               </td></tr>
+                                <tr> <td>Debe prestarse atención cuando se navega para evitar ingresar a sitios peligrosos y evitar
+                                        ejecutar programas que “auto-ofrecen” descargarse, ya que es común ver programas dañinos que 
+                                        simulan ser soluciones de seguridad o Antivirus. 
+                               </td></tr>
+                                <tr> <td>Evite publicar sus cuentas de correo en webs de reputación dudosa, sitios pornográficos, foros, chats,
+                                        etc. Si lo hace, utilice una cuenta descartable y consciente de que recibirá SPAM al poco tiempo. 
+                                    </td></tr>
+                                <tr> <td>Evite el SPAM, es el principal medio de distribución de cualquier mensaje que intente engañarlo. </td></tr>
+
+                                <tr> <td>No haga click en enlaces que aparecen en los correos, ya que suelen llevarnos a sitios exactamente 
+                                        iguales al verdadero. Si ingresamos nuestros datos en esos sitios seremos robados casi con seguridad. 
+                                        Para visitar sitios en donde se nos pedirá información confidencial (como usuario, contraseña, tarjeta, 
+                                        PIN, etc.) ingrese manualmente Ud. mismo al sitio que se trate. 
+                                </td></tr>
+                                <tr> <td>Verificar la existencia de un certificado digital y protocolo seguro (HTTPS): es imprescindible chequear 
+                                        si se ingresa a un sitio web con formulario de acceso, que el mismo cuente con un certificado digital y con 
+                                        el protocolo seguro (HTTPS).
+                                </td></tr>        
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                
+                </div>                        
+        </div>        
+        
+    </div>
+
+  </body>
+</html>

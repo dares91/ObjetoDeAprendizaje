@@ -1,0 +1,53 @@
+a{
+		color:#FF0000;
+		text-decoration:none;
+	}
+	a:hover{
+		text-decoration:underline;
+	}
+
+	#puzzle_container{
+		line-height:500px;
+		text-align:center;
+		vertical-align:center;
+		border:10px outset #CCCCCC;
+		position:relative;
+		color: #FFFFFF;
+		background-color: #707070;
+		
+		width: 520px;	/* IE 5.x */
+		width/* */:/**/500px;	/* Other browsers */
+		width: /**/500px;	
+		
+		height: 520px;	/* IE 5.x */
+		height/* */:/**/500px;	/* Other browsers */
+		height: /**/500px;			
+
+	}
+	
+	#puzzle_container .square{
+		overflow:hidden;
+		border-left:1px solid #FFF;
+		border-top:1px solid #FFF;
+		position:absolute;
+	}
+
+	.activeImageIndicator{
+		border:2px solid red;
+		position:absolute;
+		z-index:10000;
+	}
+	.revealedImage{
+		position:absolute;
+		left:0px;
+		opacity:0;
+		filter:alpha(opacity=50);
+		top:0px;
+		z-index:50000;
+	}
+        
+
+
+        .enlacesAjuegos{
+            border: solid white 2px;
+        }
